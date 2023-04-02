@@ -3,18 +3,6 @@
   font-weight: 400;
   font-size: 40px;
 }
-.hero {
-  font-family: "DM Serif Display", serif;
-}
-.hero h1 {
-  font-size: 85px;
-  color: #292f36;
-}
-
-.hero p {
-  font-size: 22px;
-  font-family: "Jost", sans-serif;
-}
 nav ul {
   font-family: "Jost", sans-serif;
   font-size: 20px;
@@ -23,20 +11,46 @@ nav ul {
 nav li {
   padding-inline: 15px;
 }
+
 .nav-item a {
-  color: black;
+  color: #000000;
 }
-.card-img-overlay {
-  margin-left: 320px;
-  margin-top: 240px;
+h1,
+h2 {
+  font-family: "DM Serif Display", serif;
 }
-.card a {
+
+p,
+a,
+span {
+  font-family: "Jost", sans-serif;
+}
+.hero .hero-image {
+  background-image: url("../images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #292f36;
+  padding-left: 200px;
+  padding-top: 240px;
+  padding-bottom: 240px;
+  border-bottom-left-radius: 22%;
+}
+.hero h1 {
+  font-size: 85px;
+  color: #292f36;
+}
+.hero p {
+  font-size: 22px;
+}
+
+.hero a {
   font-family: "Jost", sans-serif;
   background-color: #292f36;
   font-size: 18px;
   font-weight: 600;
 }
-.card a:hover {
+.hero a:hover {
   background-color: #1e2227;
 }
 a svg {
@@ -46,77 +60,131 @@ a svg {
 
 @media screen and (max-width: 1400px) {
   .hero h1 {
-    font-size: 65px;
+    font-size: 75px;
     color: #292f36;
   }
-  .card-img-overlay {
-    margin-left: 120px;
-    margin-top: 120px;
+  .hero .hero-image {
+    padding-left: 120px;
+    padding-top: 120px;
+  }
+}
+@media screen and (min-width: 996px) {
+  .work {
+    margin-top: 220px;
+  }
+  .counter .col-lg-3 {
+    text-align: center;
+    border-right: #cda274 solid 1px;
+  }
+}
+@media screen and (max-width: 996px) {
+  .work {
+    margin-top: 80px;
+  }
+  .about .about-image img {
+    width: 650px;
+  }
+  .counter .col-lg-3 {
+    text-align: center;
+    border-right: #cda27400 solid 1px;
+    border-bottom: #cda274 solid 1px;
   }
 }
 @media screen and (max-width: 1600px) {
-  .card-img-overlay {
-    margin-left: 120px;
-    margin-top: 120px;
+  .her .hero-image {
+    padding-left: 240px;
+    padding-top: 240px;
   }
 }
-.work {
-  margin-top: 180px;
-}
-
 @media screen and (max-width: 768px) {
-  .work {
-    margin-top: 120px;
+  .hero .hero-image h1 {
+    font-size: 40px;
+    color: #292f36;
+  }
+  .colm {
+    border-top: #c0c0c0 solid 1px;
+  }
+  .about .about-text h1 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .about-container {
+    text-align: center;
+  }
+  .hero p {
+    font-size: 16px;
+  }
+  .about .about-image img {
+    width: 350px;
+  }
+
+  .hero .hero-image {
+    background-image: url("../images/hero.png");
+    padding-left: 50px;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 69%;
+  }
+  .hero .hero-image a {
+    background-color: #292f36;
+    font-size: 15px;
+    font-weight: 400;
   }
 }
 .about {
   margin-block: 150px;
 }
+.project {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
 .about a:hover {
   background-color: #1e2227;
 }
+
 .work h2 {
-  font-family: "DM Serif Display", serif;
   font-size: 25px;
-  margin-bottom: 25px;
   color: #292f36;
 }
 .work p {
-  font-family: "Jost", serif;
   font-size: 22px;
   font-weight: 400;
   color: #4d5053;
   margin-bottom: 25px;
 }
 .work a {
-  font-family: "Jost", serif;
   font-size: 18px;
   font-weight: 600;
   color: #4d5053;
   margin-bottom: 25px;
 }
 .about h1 {
-  font-family: "DM Serif Display", serif;
   font-size: 50px;
   color: #292f36;
 }
 .about p {
   font-size: 22px;
-  font-family: "Jost", serif;
   color: #4d5053;
+}
+.articles-text {
+  margin-bottom: 50px;
+}
+.articles {
+  margin-top: 150px;
+  margin-bottom: 90;
 }
 .num {
   font-weight: 700;
   font-size: 24px;
 }
 .about a {
-  font-family: "Jost", sans-serif;
   background-color: #292f36;
   font-size: 18px;
   font-weight: 600;
 }
 .heads {
-  font-family: "DM Serif Display", serif;
   font-size: 50px;
   font-weight: 400;
   color: #292f36;
@@ -128,12 +196,10 @@ a svg {
   color: #292f36;
 }
 .project p {
-  font-family: "DM Serif Display", serif;
   font-weight: 400;
   font-size: 25px;
 }
 .project p span {
-  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 22px;
   color: #4d5053;
@@ -144,9 +210,8 @@ a svg {
 }
 .counter .col-lg-3 {
   text-align: center;
-  border-right: #cda274 solid 1px;
 }
-.counter .csa {
+.counter .exception {
   border-right: #cda27400 0px;
 }
 .count {
@@ -155,7 +220,6 @@ a svg {
   color: #cda274;
 }
 .counter p {
-  font-family: "Jost", serif;
   font-size: 22px;
   color: #575a5d;
 }
@@ -172,7 +236,6 @@ a svg {
 }
 .articles h1 {
   font-size: 25px;
-  font-family: "DM Serif Display", serif;
 }
 .footid {
   font-size: 25px;
@@ -180,9 +243,35 @@ a svg {
 }
 .footer p {
   font-size: 22px;
-  font-family: "Jost", sans-serif;
 }
 .articles .card {
   border-radius: 83px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
+}
+.card {
+  width: 22rem;
+}
+.card-body .card-title {
+  margin-bottom: 35px;
+}
+.articles {
+  margin-bottom: 100px;
+}
+.footer .column {
+  padding-left: 10px;
+}
+.logo {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+.card {
+  position: relative;
+}
+.card-in {
+  position: absolute;
+  top: 230px;
+  left: 38px;
+  padding: 6px;
+  border-radius: 8%;
+  background-color: #ffffff;
 }
