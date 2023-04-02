@@ -1,0 +1,188 @@
+.navbar .navbar-brand {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+.hero {
+  font-family: "DM Serif Display", serif;
+}
+.hero h1 {
+  font-size: 85px;
+  color: #292f36;
+}
+
+.hero p {
+  font-size: 22px;
+  font-family: "Jost", sans-serif;
+}
+nav ul {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+nav li {
+  padding-inline: 15px;
+}
+.nav-item a {
+  color: black;
+}
+.card-img-overlay {
+  margin-left: 320px;
+  margin-top: 240px;
+}
+.card a {
+  font-family: "Jost", sans-serif;
+  background-color: #292f36;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card a:hover {
+  background-color: #1e2227;
+}
+a svg {
+  color: #cda274;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1400px) {
+  .hero h1 {
+    font-size: 65px;
+    color: #292f36;
+  }
+  .card-img-overlay {
+    margin-left: 120px;
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .card-img-overlay {
+    margin-left: 120px;
+    margin-top: 120px;
+  }
+}
+.work {
+  margin-top: 180px;
+}
+
+@media screen and (max-width: 768px) {
+  .work {
+    margin-top: 120px;
+  }
+}
+.about {
+  margin-block: 150px;
+}
+.about a:hover {
+  background-color: #1e2227;
+}
+.work h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  margin-bottom: 25px;
+  color: #292f36;
+}
+.work p {
+  font-family: "Jost", serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #4d5053;
+  margin-bottom: 25px;
+}
+.work a {
+  font-family: "Jost", serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #4d5053;
+  margin-bottom: 25px;
+}
+.about h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  color: #292f36;
+}
+.about p {
+  font-size: 22px;
+  font-family: "Jost", serif;
+  color: #4d5053;
+}
+.num {
+  font-weight: 700;
+  font-size: 24px;
+}
+.about a {
+  font-family: "Jost", sans-serif;
+  background-color: #292f36;
+  font-size: 18px;
+  font-weight: 600;
+}
+.heads {
+  font-family: "DM Serif Display", serif;
+  font-size: 50px;
+  font-weight: 400;
+  color: #292f36;
+}
+.pargraph {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #292f36;
+}
+.project p {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-size: 25px;
+}
+.project p span {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  color: #4d5053;
+}
+.counter {
+  background-color: #f4f0ec;
+  padding-block: 120px;
+}
+.counter .col-lg-3 {
+  text-align: center;
+  border-right: #cda274 solid 1px;
+}
+.counter .csa {
+  border-right: #cda27400 0px;
+}
+.count {
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  color: #cda274;
+}
+.counter p {
+  font-family: "Jost", serif;
+  font-size: 22px;
+  color: #575a5d;
+}
+.articles .act {
+  background-color: #f4f0ec;
+}
+.footer {
+  background-color: #fbfbfb;
+  padding: 60px 0px 20px 0px;
+}
+.footi {
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+}
+.articles h1 {
+  font-size: 25px;
+  font-family: "DM Serif Display", serif;
+}
+.footid {
+  font-size: 25px;
+  font-family: "DM Serif Display", serif;
+}
+.footer p {
+  font-size: 22px;
+  font-family: "Jost", sans-serif;
+}
+.articles .card {
+  border-radius: 83px;
+  margin-bottom: 20px;  
+}
