@@ -287,3 +287,6 @@ a svg {
   border-radius: 8%;
   background-color: #ffffff;
 }
+.footer svg {
+  margin-right: 80px;
+}
