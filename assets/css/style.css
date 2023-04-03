@@ -82,11 +82,11 @@ a svg {
     text-align: start;
     padding-left: 75px;
   }
-}
-@media screen and (max-width: 996px) {
   .footer .footer-col {
     padding-left: 8rem;
   }
+}
+@media screen and (max-width: 996px) {
   .work {
     margin-top: 80px;
   }
