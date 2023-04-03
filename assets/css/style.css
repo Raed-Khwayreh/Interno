@@ -67,9 +67,6 @@ a svg {
     padding-left: 120px;
     padding-top: 120px;
   }
-  .footer .footer-col {
-    padding-left: 8rem;
-  }
 }
 @media screen and (min-width: 996px) {
   .work {
@@ -87,6 +84,9 @@ a svg {
   }
 }
 @media screen and (max-width: 996px) {
+  .footer .footer-col {
+    padding-left: 8rem;
+  }
   .work {
     margin-top: 80px;
   }
