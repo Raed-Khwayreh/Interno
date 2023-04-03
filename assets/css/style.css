@@ -72,9 +72,19 @@ a svg {
   .work {
     margin-top: 220px;
   }
+  .footer .footer-col {
+    padding-left: 7rem;
+  }
+
   .counter .col-lg-3 {
     text-align: center;
     border-right: #cda274 solid 1px;
+  }
+  .project p {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 45px;
   }
 }
 @media screen and (max-width: 996px) {
