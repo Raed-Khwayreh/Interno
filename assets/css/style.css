@@ -72,10 +72,6 @@ a svg {
   .work {
     margin-top: 220px;
   }
-  .footer .footer-col {
-    padding-left: 7rem;
-  }
-
   .counter .col-lg-3 {
     text-align: center;
     border-right: #cda274 solid 1px;
@@ -84,7 +80,7 @@ a svg {
     font-weight: 400;
     font-size: 25px;
     text-align: start;
-    padding-left: 45px;
+    padding-left: 90px;
   }
 }
 @media screen and (max-width: 996px) {
@@ -229,6 +225,9 @@ a svg {
   font-size: 85px;
   color: #cda274;
 }
+.project .pargraph {
+  text-align: center;
+}
 .counter p {
   font-size: 22px;
   color: #575a5d;
@@ -284,4 +283,7 @@ a svg {
   padding: 6px;
   border-radius: 8%;
   background-color: #ffffff;
+}
+.footer .footer-col {
+  padding-left: 7rem;
 }
