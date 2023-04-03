@@ -76,11 +76,11 @@ a svg {
     text-align: center;
     border-right: #cda274 solid 1px;
   }
-  .project p {
+  .project .left {
     font-weight: 400;
     font-size: 25px;
     text-align: start;
-    padding-left: 90px;
+    padding-left: 75px;
   }
 }
 @media screen and (max-width: 996px) {
@@ -283,7 +283,4 @@ a svg {
   padding: 6px;
   border-radius: 8%;
   background-color: #ffffff;
-}
-.footer .footer-col {
-  padding-left: 7rem;
 }
