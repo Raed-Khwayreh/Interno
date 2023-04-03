@@ -117,14 +117,14 @@ a svg {
     text-align: center;
     font-size: 35px;
   }
-  .about-container {
+  .about-text {
     text-align: center;
   }
   .hero p {
     font-size: 16px;
   }
   .about .about-image img {
-    width: 350px;
+    width: 320px;
   }
 
   .hero .hero-image {
