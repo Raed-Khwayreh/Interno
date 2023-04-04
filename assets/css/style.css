@@ -59,7 +59,13 @@ a svg {
   color: #cda274;
   font-size: 18px;
 }
-
+@media screen and (min-width: 1400px) {
+  .card-in {
+    position: relative;
+    background-size: cover;
+    height: 290px;
+  }
+}
 @media screen and (max-width: 1400px) {
   .hero h1 {
     font-size: 75px;
@@ -70,7 +76,12 @@ a svg {
     padding-top: 120px;
   }
 }
-@media screen and (min-width: 996px) {
+@media screen and (min-width: 996px) and (max-width: 1300px) {
+  .card-in {
+    position: relative;
+    background-size: cover;
+    height: 180px;
+  }
   .work {
     margin-top: 220px;
   }
@@ -88,7 +99,19 @@ a svg {
     padding-left: 8rem;
   }
 }
+@media screen and (min-width: 1301px) and (max-width: 1400px) {
+  .card-in {  
+    position: relative;
+    background-size: cover;
+    height: 180px;
+  }
+}
 @media screen and (max-width: 996px) {
+  .card-in {
+    position: relative;
+    background-size: cover;
+    height: 120px;
+  }
   .work {
     margin-top: 80px;
   }
@@ -111,6 +134,11 @@ a svg {
   .hero .hero-image h1 {
     font-size: 40px;
     color: #292f36;
+  }
+  .card-in {
+    position: relative;
+    background-size: cover;
+    height: 280px;
   }
   .colm {
     border-top: #c0c0c0 solid 1px;
@@ -288,11 +316,7 @@ a svg {
 .act {
   background-color: #f4f0ec;
 }
-.card-in {
-  position: relative;
-  background-size: cover;
-  height: 290px;
-}
+
 .card .card-in p {
   position: absolute;
   bottom: 0;
