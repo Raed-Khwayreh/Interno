@@ -100,7 +100,7 @@ a svg {
   }
 }
 @media screen and (min-width: 1301px) and (max-width: 1400px) {
-  .card-in {  
+  .card-in {
     position: relative;
     background-size: cover;
     height: 180px;
@@ -128,6 +128,9 @@ a svg {
   .her .hero-image {
     padding-left: 240px;
     padding-top: 240px;
+  }
+  .work {
+    margin-top: 200px;
   }
 }
 @media screen and (max-width: 768px) {
