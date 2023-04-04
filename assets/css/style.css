@@ -94,9 +94,12 @@ a svg {
   .work {
     margin-top: 220px;
   }
-  .counter .col-lg-3 {
+  .counter .row .col-lg-3 {
     text-align: center;
     border-right: #cda274 solid 1px;
+  }
+  .counter .row :last-child {
+    border-right: none;
   }
   .project .left {
     font-weight: 400;
@@ -112,7 +115,7 @@ a svg {
   .card-in {
     position: relative;
     background-size: cover;
-    height: 180px;
+    height: 220px;
   }
 }
 @media screen and (max-width: 996px) {
@@ -131,6 +134,9 @@ a svg {
     text-align: center;
     border-right: #cda27400 solid 1px;
     border-bottom: #cda274 solid 1px;
+  }
+  .counter .row :last-child {
+    border-bottom: none;
   }
 }
 @media screen and (max-width: 1600px) {
@@ -259,9 +265,7 @@ a svg {
 .counter .col-lg-3 {
   text-align: center;
 }
-.counter .exception {
-  border-right: #cda27400 0px;
-}
+
 .count {
   font-family: "DM Serif Display", serif;
   font-size: 85px;
@@ -324,8 +328,8 @@ a svg {
   margin-right: 15px;
 }
 .card-in {
-  border-top-right-radius: 18%;
-  border-top-left-radius: 18%;
+  border-top-right-radius: 62px;
+  border-top-left-radius: 62px;
 }
 .a1 {
   background-image: url("../images/a1.png");
