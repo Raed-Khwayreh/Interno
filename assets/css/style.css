@@ -65,6 +65,12 @@ a svg {
     background-size: cover;
     height: 290px;
   }
+  .project .left {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: start;
+    padding-left: 75px;
+  }
 }
 @media screen and (max-width: 1400px) {
   .hero h1 {
@@ -87,6 +93,11 @@ a svg {
   }
 }
 @media screen and (min-width: 996px) {
+  .project .left {
+    font-weight: 400;
+    font-size: 25px;
+    text-align: start;
+  }
   .footer p {
     font-size: 22px;
     margin-bottom: 2rem;
@@ -101,12 +112,7 @@ a svg {
   .counter .row :last-child {
     border-right: none;
   }
-  .project .left {
-    font-weight: 400;
-    font-size: 25px;
-    text-align: start;
-    padding-left: 75px;
-  }
+
   .footer .footer-col {
     padding-left: 8rem;
   }
