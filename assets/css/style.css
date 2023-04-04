@@ -11,7 +11,7 @@ nav ul {
 }
 nav li {
   padding-inline: 15px;
-  margin-top: auto;
+  margin-block: auto;
 }
 
 .nav-item a {
