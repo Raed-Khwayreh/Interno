@@ -297,6 +297,8 @@ a svg {
 }
 .footer p {
   font-size: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .articles .card {
   border-radius: 62px;
