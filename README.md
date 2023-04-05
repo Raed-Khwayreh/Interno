@@ -31,4 +31,4 @@ This page have Navbar,Footer, and 6 Sections :
 
 ##
 You can see this web page by install this repository and open index.html using any browser.
-or visit this link : https://raedkhwayreh.netlify.app
+or visit this link : https://raed-khwayreh.github.io/Interno/
