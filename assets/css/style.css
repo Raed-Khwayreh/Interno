@@ -1,6 +1,5 @@
 .navbar .navbar-brand {
   font-family: "DM Serif Display", serif;
-  font-weight: 400;
   font-size: 40px;
 }
 nav ul {
@@ -59,17 +58,204 @@ a svg {
   color: #cda274;
   font-size: 18px;
 }
+
+.project {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.work h2 {
+  font-size: 25px;
+  color: #292f36;
+}
+.work p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #4d5053;
+  margin-bottom: 25px;
+}
+.work a {
+  font-size: 18px;
+  font-weight: 600;
+  color: #4d5053;
+  margin-bottom: 25px;
+}
+.about {
+  margin-block: 150px;
+}
+.about a:hover {
+  background-color: #1e2227;
+}
+.about h1 {
+  font-size: 50px;
+  color: #292f36;
+}
+.about p {
+  font-size: 22px;
+  color: #4d5053;
+}
+.articles-text {
+  margin-bottom: 50px;
+}
+.articles {
+  margin-top: 150px;
+  margin-bottom: 90;
+}
+.num {
+  font-weight: 700;
+  font-size: 24px;
+}
+.about a {
+  background-color: #292f36;
+  font-size: 18px;
+  font-weight: 600;
+}
+.heads {
+  font-size: 50px;
+  font-weight: 400;
+  color: #292f36;
+}
+.pargraph {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #292f36;
+}
+.project p {
+  font-weight: 400;
+  font-size: 25px;
+}
+.project p span {
+  font-weight: 400;
+  font-size: 22px;
+  color: #4d5053;
+}
+
+.project .pargraph {
+  text-align: center;
+}
+.counter {
+  background-color: #f4f0ec;
+  padding-block: 120px;
+}
+.counter .col-lg-3 {
+  text-align: center;
+}
+
+.count {
+  font-family: "DM Serif Display", serif;
+  font-size: 85px;
+  color: #cda274;
+}
+.counter p {
+  font-size: 22px;
+  color: #575a5d;
+}
+.articles .act {
+  background-color: #f4f0ec;
+}
+
+.articles h1 {
+  font-size: 25px;
+}
+
+.articles .card {
+  border-radius: 62px;
+  margin-bottom: 20px;
+}
+
+  .card-body .card-title {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-bottom: 35px;
+  }
+.articles {
+  margin-bottom: 100px;
+}
+.footer {
+  background-color: #fbfbfb;
+  padding: 60px 0px 20px 0px;
+}
+.footi {
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+}
+.footid {
+  font-size: 25px;
+  font-family: "DM Serif Display", serif;
+}
+.footer .foot-fp {
+  margin-bottom: 1rem;
+}
+.footer p {
+  font-size: 22px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.footer .column {
+  padding-left: 10px;
+}
+.logo {
+  margin-bottom: 15px;
+  margin-right: 15px;
+}.footer svg {
+  margin-right: 3rem;
+}
+.card-in {
+  border-top-right-radius: 62px;
+  border-top-left-radius: 62px;
+}
+.a1 {
+  background-image: url("../images/a1.png");
+}
+.a2 {
+  background-image: url("../images/a2.png");
+}
+.a3 {
+  background-image: url("../images/a3.png");
+}
+.act {
+  background-color: #f4f0ec;
+}
+
+.card .card-in p {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  background-color: white;
+  padding: 5px;
+  border-radius: 8px;
+}
+.card-text {
+  margin-block: auto;
+}
+
+.flex {
+  display: flex;
+  direction: row;
+  justify-content: space-between;
+}
+
+.row-flex {
+  display: flex;
+  justify-content: start;
+  gap: 2.5%;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.ar-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 @media screen and (min-width: 1400px) {
   .card-in {
     position: relative;
     background-size: cover;
     height: 290px;
-  }
-  .project .left {
-    font-weight: 400;
-    font-size: 25px;
-    text-align: start;
-    padding-left: 75px;
   }
 }
 @media screen and (max-width: 1400px) {
@@ -151,6 +337,7 @@ a svg {
     padding-top: 240px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .hero .hero-image h1 {
     font-size: 40px;
@@ -192,175 +379,4 @@ a svg {
     font-size: 15px;
     font-weight: 400;
   }
-}
-.about {
-  margin-block: 150px;
-}
-.project {
-  margin-top: 150px;
-  margin-bottom: 50px;
-}
-.about a:hover {
-  background-color: #1e2227;
-}
-
-.work h2 {
-  font-size: 25px;
-  color: #292f36;
-}
-.work p {
-  font-size: 22px;
-  font-weight: 400;
-  color: #4d5053;
-  margin-bottom: 25px;
-}
-.work a {
-  font-size: 18px;
-  font-weight: 600;
-  color: #4d5053;
-  margin-bottom: 25px;
-}
-.about h1 {
-  font-size: 50px;
-  color: #292f36;
-}
-.about p {
-  font-size: 22px;
-  color: #4d5053;
-}
-.articles-text {
-  margin-bottom: 50px;
-}
-.articles {
-  margin-top: 150px;
-  margin-bottom: 90;
-}
-.num {
-  font-weight: 700;
-  font-size: 24px;
-}
-.about a {
-  background-color: #292f36;
-  font-size: 18px;
-  font-weight: 600;
-}
-.heads {
-  font-size: 50px;
-  font-weight: 400;
-  color: #292f36;
-}
-.pargraph {
-  font-family: "Jost", sans-serif;
-  font-size: 22px;
-  font-weight: 400;
-  color: #292f36;
-}
-.project p {
-  font-weight: 400;
-  font-size: 25px;
-}
-.project p span {
-  font-weight: 400;
-  font-size: 22px;
-  color: #4d5053;
-}
-.counter {
-  background-color: #f4f0ec;
-  padding-block: 120px;
-}
-.counter .col-lg-3 {
-  text-align: center;
-}
-
-.count {
-  font-family: "DM Serif Display", serif;
-  font-size: 85px;
-  color: #cda274;
-}
-.project .pargraph {
-  text-align: center;
-}
-.counter p {
-  font-size: 22px;
-  color: #575a5d;
-}
-.articles .act {
-  background-color: #f4f0ec;
-}
-.footer {
-  background-color: #fbfbfb;
-  padding: 60px 0px 20px 0px;
-}
-.footi {
-  font-size: 40px;
-  font-family: "DM Serif Display", serif;
-}
-.articles h1 {
-  font-size: 25px;
-}
-.footid {
-  font-size: 25px;
-  font-family: "DM Serif Display", serif;
-}
-.footer .foot-fp {
-  margin-bottom: 1rem;
-}
-.footer p {
-  font-size: 22px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-.articles .card {
-  border-radius: 62px;
-  margin-bottom: 20px;
-}
-
-.card-body .card-title {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 2; /* number of lines to show */
-  line-clamp: 2;
-  -webkit-box-orient: vertical;
-  margin-bottom: 35px;
-}
-.articles {
-  margin-bottom: 100px;
-}
-.footer .column {
-  padding-left: 10px;
-}
-.logo {
-  margin-bottom: 15px;
-  margin-right: 15px;
-}
-.card-in {
-  border-top-right-radius: 62px;
-  border-top-left-radius: 62px;
-}
-.a1 {
-  background-image: url("../images/a1.png");
-}
-.a2 {
-  background-image: url("../images/a2.png");
-}
-.a3 {
-  background-image: url("../images/a3.png");
-}
-.act {
-  background-color: #f4f0ec;
-}
-
-.card .card-in p {
-  position: absolute;
-  bottom: 0;
-  left: 15px;
-  background-color: white;
-  padding: 5px;
-  border-radius: 8px;
-}
-.card-text {
-  margin-block: auto;
-}
-.footer svg {
-  margin-right: 3rem;
 }
